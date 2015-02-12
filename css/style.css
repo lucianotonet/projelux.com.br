@@ -1,0 +1,131 @@
+@import url('../fonts/stylesheet.css');
+@import url('../fonts/icomoon/style.css');
+
+body{
+	background: url('../images/bg_home.jpg') #fff;
+	background-color: #fff;
+	background-size: inherit;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-blend-mode: multiply;
+	padding-top: 100px;
+}
+p{
+	line-height: 1.45;
+	margin-bottom: 20px;
+}
+h1, h2, h3, h4, h5{
+	color: #2b5db0;
+	font-family: 'ralewayregular';
+	line-height: 1.25;
+}
+h1{
+	margin-bottom: 43px;
+}
+
+
+/* TOP HEADER */
+#main-menu {
+    background-color: rgba(51, 51, 51, 0.5);	
+}
+#main-menu .navbar-nav {
+	float: right;
+	margin: 0;
+	color: #fff;
+}
+#main-menu .navbar-nav li a{	
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 0;
+}
+#main-menu .navbar-nav li.active a,
+#main-menu .navbar-nav li a:hover,
+#main-menu .navbar-nav li a:focus {
+	font-weight: bold;
+	background-color: transparent;
+}
+#main-menu .navbar-nav li:last-child a{	
+	padding-right: 0px !important;
+}
+
+a#logo {
+	padding: 0px 10px;
+}
+
+
+
+/* SLIDER */
+#slider{
+	padding: 0px;
+	margin: 0px;
+	margin-top: -100px;
+	opacity: 1;
+}
+
+
+
+/* JUMBOTRON */
+.jumbotron {
+	background: transparent;
+	padding: 20px 0px 29px 0px !important;
+	margin: 0px !important;
+	border-bottom: #E1E1E1 solid 1px;
+	margin-bottom: 64px !important;
+}
+.jumbotron h2{
+	font-size: 34px;	
+	color: #313131;
+	line-height: 1.10;
+}
+.jumbotron h2 span{
+	font-size: 34px;	
+}
+.jumbotron p{
+	font-size: 18px;	
+}
+.jumbotron a.btn{
+	margin-top: 10px;	
+}
+
+
+/* HOME | AREA 1 */
+.thumbnail {
+/* opacity: 0.5; */
+	display: block;
+	padding: 0px;
+	margin-top: 27px;
+	margin-bottom: 21px;
+	line-height: 1.42857143;
+	background-color: #F4F8FB;
+	border: 1px solid #F4F8FB;
+	border-radius: 0;
+	-webkit-transition: border .2s ease-in-out;
+	-o-transition: border .2s ease-in-out;
+	transition: border .2s ease-in-out;
+}
+.thumbnail>img, .thumbnail a>img {
+	margin-left: auto;
+	margin-right: auto;
+}
+.thumbnail .caption {
+	padding: 0px 70px;
+	color: #7e7e7e;
+	text-align: center;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 80px;
+	left: 0;
+	width: 100%;
+}
+.thumbnail .caption h4{
+	color: #313131;
+	font-size: 23px;
+}
+.thumbnail .caption p{
+	color: #7f8b95;
+	margin: 45px 0px;
+}
+.thumbnail .caption .btn{
+	padding-left: 40px;
+	padding-right: 40px;
+}
