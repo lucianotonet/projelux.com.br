@@ -12,6 +12,9 @@
 	<!-- Font-Awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 
+	<!-- CSS Hover Effects -->
+	<link rel="stylesheet" href="css/hover.css">
+
 	<!-- Main Style -->
 	<link rel="stylesheet" href="css/style.css">
 
@@ -26,7 +29,7 @@
 
 
 			<!-- Fixed navbar -->
-			<nav class="navbar navbar-fixed-top" id="main-menu">
+			<nav class="navbar navbar-static-top" id="main-menu">
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -36,7 +39,7 @@
 							<span class="icon-bar"></span>
 						</button>
 						<a id="logo" class="navbar-brand" href="#">
-							<img src="images/logo.jpg" class="img-responsive" alt="Image">
+							<img src="images/logo.jpg" class="img-responsive" alt="">
 						</a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
@@ -51,6 +54,33 @@
 				</div>
 			</nav>
 
+			<nav class="navbar navbar-inverse navbar-fixed-top" id="sticky-main-menu">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand logo" href="#">
+							<img src="images/logo_sm.png" class="img-responsive" alt="">
+						</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav pull-right">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#about">Sobre a Projelux</a></li>
+							<li><a href="#services">Serviços</a></li>
+							<li><a href="#projects">Projetos</a></li>
+							<li><a href="#contact">Contato</a></li>							
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
+			</nav>
+
+
+
 
 			<div id="slider" class="container-fluid">
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -61,13 +91,13 @@
 					</ol>
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img src="http://placehold.it/1920x713" alt="First slide">
+							<img src="images/slide1.jpg" alt="First slide">
 						</div>
 						<div class="item">
-							<img src="http://placehold.it/1920x713" alt="Second slide">
+							<img src="http://placehold.it/1920x708" alt="Second slide">
 						</div>
 						<div class="item">
-							<img src="http://placehold.it/1920x713" alt="Third slide">
+							<img src="http://placehold.it/1920x708" alt="Third slide">
 						</div>
 					</div>
 					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -94,12 +124,15 @@
 
 	
 
-			<div class="container">
+			<div class="container about-section">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<h1>Tradição, experiência<br/> 
+						<h2>Tradição, experiência<br/> 
 							e qualidade em tudo<br/>
-							o que faz.</h1>
+							o que faz.</h2>
+
+						<br>
+
 						<p>Há mais de 18 anos no mercado, a Projelux<br/>
 							é uma das principais empresas da região.<br/>
 							Dividida em dois segmentos, atua na assessoria<br/>
@@ -108,18 +141,12 @@
 							projetos de pequeno, médio e grande porte, com<br/>
 							soluções rápidas seguras e econômicas.</p>
 
+						<br>
 						
-						<p>
-							<a href="#">
-								<i class="icon-circle-right"></i>
-								Conheça nossa empresa
-							</a>
-							<br>
-							<a href="#">
-								<i class="icon-circle-right"></i>
-								Entre em contato conosco
-							</a>							
-						</p>
+						<ul class="list-icons">
+							<li><a href="#"><i class="icon-circle-right"></i>Conheça nossa empresa</a></li>
+							<li><a href="#"><i class="icon-circle-right"></i>Entre em contato conosco</a></li>
+						</ul>
 					
 					
 					</div>
@@ -146,13 +173,190 @@
 				</div>
 			</div>
 
+			<div class="container-fluid section-alternative">
+				<div class="container">		
+					<div class="row">
+						<div class="col-md-6">
+							<img src="images/home_dicas.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="col-md-6">	
+							<div class="content-right">
+								<h2>
+									<small>Dicas Projelux</small>
+									<br>
+									Ter uma  gestão de energia é 
+									importante para a sua empresa.
+								</h2>			
+
+								<br>
+
+								<p>O controle do consumo e da qualidade da energia utilizada em 
+									sua empresa é de fundamental importância para a racionalização de custos, eficácia do sistema produtivo, 
+									conservação dos equipamentos e segurança dos colaboradores. </p>
+									<br>
+								<p class="icone icone_1">								
+									Os serviços de consultoria e gerenciamento 
+									prestados pela Projelux ajudam a decidir o
+									que é melhor para a sua empresa.</p>
+							</div>
+						</div>
+					</div>			
+				</div>
+			</div>
 
 
+			<div class="container text-center">
+
+				<h2>Projetos Recentes</h2>
+				<p>Conheça alguns dos mais recentes projetos executados pela Projelux.</p>	
+
+				<br>			
+
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<div class="recent-work">
+							<a href="#" class="">
+								<div class="mask">  
+								    <h4>
+								    	Concresul
+								    	<br>
+								    	<small>Painel elétrico</small>
+								    </h4>  								    
+							    </div>  							
+								<img src="images/recent_works/work1.jpg" class="img-responsive" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<div class="recent-work">
+							<a href="#" class="">
+								<div class="mask">  
+								    <h4>
+								    	Concresul
+								    	<br>
+								    	<small>Painel elétrico</small>
+								    </h4>  								    		
+							    </div>  
+								<img src="images/recent_works/work2.jpg" class="img-responsive" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<div class="recent-work">
+							<a href="#" class="">
+								<div class="mask">  
+								    <h4>
+								    	Concresul
+								    	<br>
+								    	<small>Painel elétrico</small>
+								    </h4>  								    		
+							    </div>  
+								<img src="images/recent_works/work3.jpg" class="img-responsive" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="container-fluid section-alternative" id="services">
+				<div class="container">		
+					<div class="row">
+						<div class="col-md-6">	
+							<div class="content-left">
+								<h2>
+									<small>Nossos Serviços</small>
+									<br>
+									Painéis elétricos com qualidade 
+									e segurança garantidas.
+								</h2>			
+
+								<br>
+
+								<p class="icone icone_2">Técnicos especializados acompanham todo o processo, desde o projeto até a montagem final.</p>	
+								<p class="icone icone_3">Os painéis são montados com componentes e materiais de alta qualidade.</p>					
+								<p class="icone icone_4">Os painéis são montados com componentes e materiais de alta qualidade.</p>						
+							</div>
+						</div>
+						<div class="col-md-6">
+							<img src="images/services/services.jpg" alt="" class="img-responsive">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<footer>
+				<div class="container-fluid footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-2">
+								<a href="#">
+									<img src="images/logo_w.png" class="img-responsive" alt="">								
+								</a>
+							</div>									
+							<div class="col-xs-12 col-sm-4 col-md-4">
+								<p class="copyright">
+									© 2014 Projelux. <br>
+									Todos os direitos reservados. <br>
+									Desenvolvido por <a href="http://www.rtisolucoes.com.br" target="_new">RTI</a>.
+								</p>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-3">
+								<p class="">
+									<strong>Localização</strong><br>
+									Av. Placidina de Araújo, 916 - Centro <br>
+									Nova Prata - Rio Grande do Sul
+								</p>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-3">
+								<p class="pull-right text-left">
+									<strong>Fale Conosco</strong><br>
+									Telefone: (54) 3242 1484 / 3242 6681 <br>
+									E-mail: <a href="mailto:projelux@projelux.com.br">projelux@projelux.com.br</a>
+								</p>
+							</div>																	
+						</div>
+					</div>
+				</div>				
+				<nav class="navbar-inverse">		
+					<div class="container">
+						
+						<ul class="nav navbar-nav pull-right" id="">
+							<li class="">
+								<a href="#" class="">Voltar ao topo</a>								
+							</li>							
+						</ul>
+						
+						<ul class="nav navbar-nav" id="menu-bottom">							
+							<li class="">
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#">Sobre a Projelux</a>
+							</li>
+							<li>
+								<a href="#">Serviços</a>
+							</li>
+							<li>
+								<a href="#">Projetos</a>
+							</li>
+							<li>
+								<a href="#">Fale Conosco</a>
+							</li>
+						</ul>
+
+					</div>					
+				</nav>			
+			</footer>
 
 
 			<!-- jQuery -->
-			<script src="//code.jquery.com/jquery.js"></script>
+			<script src="js/jquery-1.11.2.min.js"></script>
 			<!-- Bootstrap JavaScript -->
 			<script src="js/bootstrap.min.js"></script>
+			<!-- Custom JavaScript -->
+			<script src="js/scripts.js"></script>
+
 		</body>
 		</html>
