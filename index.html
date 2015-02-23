@@ -12,9 +12,6 @@
 	<!-- Font-Awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 
-	<!-- CSS Hover Effects -->
-	<link rel="stylesheet" href="css/hover.css">
-
 	<!-- Main Style -->
 	<link rel="stylesheet" href="css/style.css">
 
@@ -30,6 +27,7 @@
 
 			<!-- Fixed navbar -->
 			<nav class="navbar navbar-static-top" id="main-menu">
+				
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -44,60 +42,70 @@
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#about">Sobre a Projelux</a></li>
-							<li><a href="#services">Serviços</a></li>
-							<li><a href="#projects">Projetos</a></li>
-							<li><a href="#contact">Contato</a></li>							
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="about.html">Sobre a Projelux</a></li>
+							<li><a href="services.html">Serviços</a></li>
+							<li><a href="projects.html">Projetos</a></li>
+							<li><a href="contact.html">Contato</a></li>							
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div>
-			</nav>
 
-			<nav class="navbar navbar-inverse navbar-fixed-top" id="sticky-main-menu">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand logo" href="#">
-							<img src="images/logo_sm.png" class="img-responsive" alt="">
-						</a>
+
+				<nav class="navbar navbar-inverse" id="sticky-main-menu">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand logo" href="#">
+								<img src="images/logo_sm.png" class="img-responsive" alt="">
+							</a>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse">
+							<ul class="nav navbar-nav pull-right">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="about.html">Sobre a Projelux</a></li>
+								<li><a href="services.html">Serviços</a></li>
+								<li><a href="projects.html">Projetos</a></li>
+								<li><a href="contact.html">Contato</a></li>							
+							</ul>
+						</div>
 					</div>
-					<div id="navbar" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav pull-right">
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#about">Sobre a Projelux</a></li>
-							<li><a href="#services">Serviços</a></li>
-							<li><a href="#projects">Projetos</a></li>
-							<li><a href="#contact">Contato</a></li>							
-						</ul>
-					</div><!--/.nav-collapse -->
-				</div>
-			</nav>
+				</nav>	
 
+			</nav>		
 
 
 
 			<div id="slider" class="container-fluid">
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-					<ol class="carousel-indicators">
+					<!-- <ol class="carousel-indicators">
 						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-					</ol>
+					</ol> -->
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img src="images/slide1.jpg" alt="First slide">
+							<img src="images/slide1.jpg" alt="Tradição, experiência e qualidade e tudo o que faz.">							
+			                <div class="carousel-caption">
+			                    <h1>Tradição, experiência e qualidade e tudo o que faz.</h1>				                    				                    
+			                </div>				            
 						</div>
 						<div class="item">
-							<img src="http://placehold.it/1920x708" alt="Second slide">
+							<img src="http://placehold.it/1920x708" alt="Tradição, experiência e qualidade e tudo o que faz.">
+							<div class="carousel-caption">
+			                    <h1>Tradição, experiência e qualidade e tudo o que faz.</h1>				                    				                    
+			                </div>	
 						</div>
 						<div class="item">
-							<img src="http://placehold.it/1920x708" alt="Third slide">
+							<img src="http://placehold.it/1920x708" alt="Tradição, experiência e qualidade e tudo o que faz.">
+							<div class="carousel-caption">
+			                    <h1>Tradição, experiência e qualidade e tudo o que faz.</h1>				                    				                    
+			                </div>	
 						</div>
 					</div>
 					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -111,12 +119,11 @@
 				</div>
 			</div>
 
-
-				
+								
 			<div class="container" role="main">
 				<div class="jumbotron">
 					<h2>Bem vindo à Projelux. <span class="text-primary">Projetamos qualidade.</span>
-						<a class="btn btn-primary btn-lg pull-right">Sobre a Projelux</a>
+						<a href="about.html" class="btn btn-primary btn-lg pull-right">Sobre a Projelux</a>
 					</h2>
 					<p>Satisfazer nossos clientes tendo a qualidade como objetivo é o nosso foco.</p>					
 				</div>
@@ -215,7 +222,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 						<div class="recent-work">
-							<a href="#" class="">
+							<a href="project-details.html" class="">
 								<div class="mask">  
 								    <h4>
 								    	Concresul
@@ -229,7 +236,7 @@
 					</div>
 					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 						<div class="recent-work">
-							<a href="#" class="">
+							<a href="project-details.html" class="">
 								<div class="mask">  
 								    <h4>
 								    	Concresul
@@ -243,7 +250,7 @@
 					</div>
 					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 						<div class="recent-work">
-							<a href="#" class="">
+							<a href="project-details.html" class="">
 								<div class="mask">  
 								    <h4>
 								    	Concresul
@@ -322,27 +329,27 @@
 				<nav class="navbar-inverse">		
 					<div class="container">
 						
-						<ul class="nav navbar-nav pull-right" id="">
+						<ul class="nav navbar-nav pull-right">
 							<li class="">
-								<a href="#" class="">Voltar ao topo</a>								
+								<a href="#top" class="">Voltar ao topo</a>								
 							</li>							
 						</ul>
 						
 						<ul class="nav navbar-nav" id="menu-bottom">							
+							<li class="active">
+								<a href="index.html">Home</a>
+							</li>
 							<li class="">
-								<a href="#">Home</a>
+								<a href="about.html">Sobre a Projelux</a>
 							</li>
 							<li>
-								<a href="#">Sobre a Projelux</a>
+								<a href="services.html">Serviços</a>
 							</li>
 							<li>
-								<a href="#">Serviços</a>
+								<a href="projects.html">Projetos</a>
 							</li>
 							<li>
-								<a href="#">Projetos</a>
-							</li>
-							<li>
-								<a href="#">Fale Conosco</a>
+								<a href="contact.html">Fale Conosco</a>
 							</li>
 						</ul>
 
@@ -355,6 +362,7 @@
 			<script src="js/jquery-1.11.2.min.js"></script>
 			<!-- Bootstrap JavaScript -->
 			<script src="js/bootstrap.min.js"></script>
+
 			<!-- Custom JavaScript -->
 			<script src="js/scripts.js"></script>
 
