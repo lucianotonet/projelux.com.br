@@ -33,6 +33,7 @@ h1 {
     float: right;
     margin: 0;
     color: #fff;
+    z-index: 100000;
 }
 #main-menu {
     position: relative;
@@ -68,7 +69,7 @@ a#logo {
     min-height: 47px;
     height: 47px;
     z-index: 1000;
-    transition: 1s;
+    /* transition: 1s; */
     /* opacity: 0; */
 }
 #sticky-main-menu .navbar-brand {
@@ -170,6 +171,7 @@ a#logo {
     margin: 0px;
     /* margin-top: -100px; */
     opacity: 1;
+    min-height: 200px;
 }
 #slider .carousel-caption {
     /* left: 20%; */
@@ -520,6 +522,9 @@ footer .navbar-nav > li:last-child > a {
 footer .navbar-nav>li>a:hover,
 footer .navbar-nav>li>a:active {
     font-weight: bold;
+}
+footer .footer .contacts p{
+	float: right;
 }
 
 
