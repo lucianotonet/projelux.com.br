@@ -2,13 +2,15 @@ $(function () {
 	
 
 	/* STICKY MENU */
-    var sticky_main_menu_offset_top = $('#sticky-main-menu').height();
+    //var sticky_main_menu_offset_top = $('#sticky-main-menu').height();
+    var sticky_main_menu_offset_top = $('#main-menu').height();
     var offset = 0;
 
     var sticky_main_menu = function(){
         var scroll_top = $(window).scrollTop();   
 
-        if (scroll_top > sticky_main_menu_offset_top && scroll_top < offset) { 
+        //if (scroll_top > sticky_main_menu_offset_top && scroll_top < offset) { 
+        if (scroll_top > sticky_main_menu_offset_top) { 
             console.log(scroll_top+">"+sticky_main_menu_offset_top);
         	// $('#sticky-main-menu').removeClass('hidden');
             $('#sticky-main-menu').css('margin-top', '0px');

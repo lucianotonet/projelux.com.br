@@ -47,9 +47,14 @@ h1 {
     letter-spacing: 0;
 }
 #main-menu .navbar-nav li.active a,
+#main-menu .navbar-nav li.active a:hover,
+#main-menu .navbar-nav li.active a:focus  {
+    font-weight: bold;
+    background-color: transparent;
+}
 #main-menu .navbar-nav li a:hover,
 #main-menu .navbar-nav li a:focus {
-    font-weight: bold;
+    font-weight: inherit;
     background-color: transparent;
 }
 #main-menu .navbar-nav li:last-child a {
@@ -521,7 +526,7 @@ footer .navbar-nav > li:last-child > a {
 
 footer .navbar-nav>li>a:hover,
 footer .navbar-nav>li>a:active {
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 footer .footer .contacts p{
 	float: right;
