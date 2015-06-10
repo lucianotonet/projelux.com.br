@@ -1,0 +1,50 @@
+.separador {
+	border-top: 1px solid #dddddd;
+	padding-top: 10px;
+}
+.page-header {
+	margin: 46px 0px 0px;
+}
+.table {
+	margin-bottom: 0px;
+	line-height: 1.2;
+}
+.table>tbody>tr>td {
+	line-height: 1.2;
+}
+.lead {
+	font-size: 16px;
+}
+input[type=text], input[type=password], input[type=email], textarea, [type=text].form-control, [type=password].form-control, textarea.form-control {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+}
+.tab-content p {
+	margin: 1em 0 1em;
+}
+label {
+	font-weight: normal;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+background-color: #D3D3D3;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #000000;
+	background-color: #A9A9A9;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+	background-color: #0095d9;
+	color: #141414;
+}
+blockquote {
+	border-left: 5px solid #dddddd;
+}
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus{
+	text-decoration:none;
+	color: #000000;
+	background-color: #A9A9A9;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+	cursor: auto;
+}

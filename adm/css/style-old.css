@@ -1,0 +1,35 @@
+.separador {
+	border-top: 1px solid #dddddd;
+	padding-top: 10px;
+}
+.page-header {
+	margin: 46px 0px 0px;
+}
+.table {
+	margin-bottom: 0px;
+	line-height: 1.2;
+}
+.table>tbody>tr>td {
+	line-height: 1.2;
+}
+.lead {
+	font-size: 16px;
+}
+input[type=text], input[type=password], input[type=email], textarea, [type=text].form-control, [type=password].form-control, textarea.form-control {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+}
+.tab-content p {
+	margin: 1em 0 1em;
+}
+label {
+	font-weight: normal;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+color: #212121;
+	background-color: #dddddd;
+}
+blockquote {
+	border-left: 5px solid #dddddd;
+}
