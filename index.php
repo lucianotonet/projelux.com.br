@@ -39,7 +39,7 @@
 				
 			<div class="container">
 				<div class="navbar-header">
-					<div id="project_slider" class="carousel slide" data-ride="carousel">
+					<div id="project_slider" class="carousel slide carousel-fade" data-ride="carousel">
 					    <div class="carousel-inner" role="listbox">
 					        <div class="item active">
 								<a id="logo" class="navbar-brand" href="?page=home">
