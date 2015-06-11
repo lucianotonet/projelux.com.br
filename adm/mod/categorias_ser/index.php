@@ -19,7 +19,7 @@
 ?>
 
 <!-- h2 stays for breadcrumbs -->
-<h5>Serviços &raquo; Categorias &raquo; <a href="#" class="active" >Lista de Categorias</a></h5>
+<h5>Plotagens &raquo; Categorias &raquo; <a href="#" class="active" >Lista de Categorias</a></h5>
 
 <?php
     $sql_total="SELECT * FROM categorias_ser";
